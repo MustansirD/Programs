@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 void count(char *str){
 	char arr[128];
 	int i;
@@ -7,6 +8,7 @@ void count(char *str){
 	}
 	
 	while(*str!='\0'){
+	
 		arr[*str] = arr[*str]+1;
 		str++;
 	}
@@ -25,3 +27,5 @@ int main(){
 
 	
 }
+
+
